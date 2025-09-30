@@ -28,7 +28,7 @@ if (isNaN(answer) || answer < 1 || answer > 100) {
 
 let birthMonth = prompt("What is your birth month?");
 
-switch (birthMonth.toLowerCase) {
+switch (birthMonth.toLowerCase()) {
     case "december":
     case "january":
     case "february":
@@ -37,12 +37,12 @@ switch (birthMonth.toLowerCase) {
     case "march":
     case "april":
     case "may":
-      console.log("You were born in spring");
+      console.log("You were born in Spring");
       break;
     case "june":
     case "july":
     case "august":
-      console.log("You were born in summer");
+      console.log("You were born in Summer");
       break;
     case "september":
     case "october":
